@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:widgets/widgets/scaffold.dart';
+import 'package:widgets/widgets/listview.dart';
+
 
 
 
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
     
     //progamacion declarativa flutter, pasamos los datos como parametros al widget
     return MaterialApp(
-      home: MiScaffold(),
+      home: MiListView(),
     );
   }
 }
