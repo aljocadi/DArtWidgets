@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:widgets/widgets/listview.dart';
+import 'package:widgets/pages/pagina_temporizador.dart';
 
 
 
@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
     
     //progamacion declarativa flutter, pasamos los datos como parametros al widget
     return MaterialApp(
-      home: MiListView(),
+      home: PaginaTemporizador(),
     );
   }
 }
